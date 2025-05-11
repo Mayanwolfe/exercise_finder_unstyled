@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Finder</title>
+</head>
+<body>
+  <h1>Find Exercises</h1>
+  <form id="filterForm">
+    <fieldset>
+      <legend>Level</legend>
+      <label><input type="checkbox" name="level" value="Beginner" /> Beginner</label>
+      <label><input type="checkbox" name="level" value="Intermediate" /> Intermediate</label>
+      <label><input type="checkbox" name="level" value="Expert" /> Expert</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Equipment</legend>
+      <label><input type="checkbox" name="equipment" value="Body Only" /> Body Only</label>
+      <label><input type="checkbox" name="equipment" value="Equipment Required" /> Equipment Required</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Primary Muscle</legend>
+      <label><input type="checkbox" name="primaryMuscles" value="Abdominals" /> Abdominals</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Abductors" /> Abductors</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Biceps" /> Biceps</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Calves" /> Calves</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Chest" /> Chest</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Forearms" /> Forearms</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Glutes" /> Glutes</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Hamstrings" /> Hamstrings</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Lats" /> Lats</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Lower back" /> Lower Back</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Middle back" /> Middle Back</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Neck" /> Neck</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Quadriceps" /> Quadriceps</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Shoulders" /> Shoulders</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Traps" /> Traps</label>
+      <label><input type="checkbox" name="primaryMuscles" value="Triceps" /> Triceps</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Category</legend>
+      <label><input type="checkbox" name="category" value="Cardio" /> Cardio</label>
+      <label><input type="checkbox" name="category" value="Olympic Weightlifting" /> Olympic Weightlifting</label>
+      <label><input type="checkbox" name="category" value="Plyometrics" /> Plyometrics</label>
+      <label><input type="checkbox" name="category" value="Powerlifting" /> Powerlifting</label>
+      <label><input type="checkbox" name="category" value="Strength" /> Strength</label>
+      <label><input type="checkbox" name="category" value="Stretching" /> Stretching</label>
+      <label><input type="checkbox" name="category" value="Strongman" /> Strongman</label>
+    </fieldset>
+
+    <button type="submit">Search</button>
+  </form>
+
+  <h2>Results</h2>
+  <ul id="results"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
