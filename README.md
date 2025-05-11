@@ -2,7 +2,7 @@
 
 This app was built as an educational exercise on my stream on 05/11/2025.
 It uses only HTML and Javascript, with Supabase as the backend database.
-If you want the version of this app that is styled with Bootstrap, go here: LINK TBD
+If you want the version of this app that is styled with Bootstrap, go here: https://github.com/Mayanwolfe/exercise_finder_styled
 
 You are welcome to fork this code to use for your own projects or portfolio.
 
